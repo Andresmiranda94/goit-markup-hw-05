@@ -26,8 +26,18 @@ p {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
+  margin: 0 auto;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin-left: 15px;
   margin-right: 15px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: space-around;
 }
 
 .link {
@@ -43,6 +53,7 @@ p {
 .site-nav {
   display: flex;
   align-items: center;
+  gap: 90px;
 }
 .site-nav .current.active {
   text-decoration: none;
@@ -54,6 +65,25 @@ p {
 }
 .current:active {
   color: var(--color-link);
+}
+.top-box {
+  height: 80px;
+}
+.name-header {
+  width: 145px;
+  height: 31px;
+  margin-left: 215px;
+  margin-top: 24px;
+}
+.estudio {
+  font-style: var(--font--primary);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  margin-left: 93px;
+  margin-top: 32px;
+  text-decoration: none;
 }
 .list {
   color: #212121;
@@ -67,7 +97,7 @@ p {
   font-style: var(--font-style);
   font-weight: 700;
   font-size: 26px;
-  line-height: 1;
+  line-height: 1.2;
   text-decoration: none;
   color: var(--color-link);
 }
@@ -75,7 +105,7 @@ p {
   font-style: var(--font-style);
   font-weight: 500;
   font-size: 14px;
-  line-height: 1;
+  line-height: 1.1;
   letter-spacing: 0.02em;
 }
 .Portafolio {
@@ -88,7 +118,7 @@ p {
   font-style: var(--font-style);
   font-weight: 500;
   font-size: 14px;
-  line-height: 1;
+  line-height: 1.1;
   letter-spacing: 0.02em;
 }
 .mail {
@@ -96,7 +126,7 @@ p {
   font-style: var(--font-style);
   font-weight: 500;
   font-size: 14px;
-  line-height: 1;
+  line-height: 1.1;
   letter-spacing: 0.02em;
 }
 
