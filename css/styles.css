@@ -38,6 +38,11 @@ p {
   justify-content: space-between;
   align-items: center;
   align-content: space-around;
+  position: relative;
+}
+.estudio {
+  left: 453px;
+  top: 32px;
 }
 
 .link {
@@ -70,7 +75,6 @@ p {
   height: 80px;
 }
 .name-header {
-  width: 145px;
   height: 31px;
   margin-left: 215px;
   margin-top: 24px;
@@ -142,6 +146,7 @@ p {
 .primary-section {
   background-color: var(--color-container);
   text-align: center;
+  padding: 200px 0;
 }
 .primary-title {
   color: #ffffff;
