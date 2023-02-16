@@ -30,7 +30,7 @@ p {
 }
 .section {
   padding-bottom: 94px;
-  padding-bottom: 94px;
+  padding-top: 94px;
 }
 .header {
   display: flex;
@@ -65,8 +65,7 @@ p {
   color: var(--color-link);
 }
 .top-box {
-  height: 80px;
-  margin-top: 32px;
+  border-block-end-color: #212121;
 }
 .name-header {
   margin-right: 93px;
@@ -87,6 +86,8 @@ p {
   line-height: 1.2;
   text-decoration: none;
   color: var(--color-link);
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 .Estudio {
   font-style: var(--font--primary);
