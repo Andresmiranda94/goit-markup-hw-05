@@ -182,12 +182,10 @@ h3 {
 }
 .li-section {
   display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
-  padding: 0;
+  gap: 25px;
 }
 .dedi-img {
-  flex-basis: calc((100%-60px) / 4);
+  flex-basis: calc((100%-60px) / 3);
 }
 
 .li-btn {
