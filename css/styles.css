@@ -194,16 +194,6 @@ p {
   align-content: center;
   gap: 8px;
 }
-.trading {
-  margin-right: 30.26px;
-}
-.design {
-  margin-right: 23.42px;
-}
-.color {
-  margin-right: 211.84px;
-}
-
 .team-name {
   font-style: var(--font-style);
   font-weight: 500;
