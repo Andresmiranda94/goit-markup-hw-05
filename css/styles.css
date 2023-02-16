@@ -67,16 +67,11 @@ p {
 .top-box {
   border-block-end-color: #212121;
 }
-.name-header {
-  margin-right: 93px;
-}
 
 .list {
   color: #212121;
   list-style: none;
   text-decoration: none;
-  padding: 0;
-  margin: 0;
 }
 .Webstudio {
   font-family: "Raleway";
@@ -96,7 +91,9 @@ p {
   line-height: 1.1;
   letter-spacing: 0.02em;
   text-decoration: none;
-  margin-right: 50px;
+}
+.li-header:not(:last-child) {
+  margin-bottom: 50px;
 }
 
 .mail {
