@@ -65,8 +65,6 @@ p {
 }
 .top-box {
   border-block-end-color: #212121;
-  padding-top: 25px;
-  padding-bottom: 25px;
 }
 
 .list {
@@ -82,6 +80,8 @@ p {
   line-height: 1.2;
   text-decoration: none;
   color: var(--color-link);
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 .li-header {
   font-style: var(--font--primary);
@@ -90,6 +90,8 @@ p {
   line-height: 1.1;
   letter-spacing: 0.02em;
   text-decoration: none;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 .li-header:not(:last-child) {
   margin-right: 50px;
@@ -139,7 +141,6 @@ p {
   background-color: #f5f4fa;
   font-size: 16px;
   cursor: pointer;
-  margin-top: 40px;
 }
 .principal {
   font-family: "Roboto";
@@ -171,25 +172,12 @@ p {
 .team {
   background-color: var(--color-team);
 }
-.valores {
-  margin-top: 121px;
-}
-.li-ate {
+
+.li-valores {
   margin-right: 30px;
   text-align: initial;
 }
-.li-pun {
-  margin-right: 30px;
-  text-align: initial;
-}
-.li-plan {
-  margin-right: 30px;
-  text-align: initial;
-  align-items: center;
-}
-.li-tec {
-  text-align: initial;
-}
+
 .tittle-section {
   font-style: var(--font-style);
   font-weight: 700;
@@ -200,8 +188,20 @@ p {
 .li-section {
   display: flex;
   grid-auto-flow: grid;
-
   align-content: center;
+}
+.li-dedicamos {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 25px;
+  padding: 0;
+  flex-basis: calc((100%-60px) / 3);
+}
+.dedi-img {
+  flex-basis: calc((100%-60px) / 3);
+}
+.div-team {
+  padding: 30px 45px;
 }
 .li-btn {
   display: flex;
@@ -211,18 +211,7 @@ p {
   align-content: center;
   gap: 8px;
 }
-.trading {
-  margin-right: 30.26px;
-}
-.design {
-  margin-right: 23.42px;
-}
-.color {
-  margin-right: 211.84px;
-}
-.secundary-team {
-  padding-top: 94px;
-}
+
 .team-name {
   font-style: var(--font-style);
   font-weight: 500;
@@ -295,9 +284,11 @@ p {
 .li-port {
   display: flex;
   flex-wrap: wrap;
-  gap: 30px;
+  gap: 20px;
   padding: 0;
-  margin-top: 50px;
+}
+.product-desc {
+  padding: 20px 24px;
 }
 .item:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
