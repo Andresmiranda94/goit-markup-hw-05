@@ -64,7 +64,7 @@ p {
   color: var(--color-link);
 }
 .top-box {
-  border-block-end-color: #212121;
+  border-bottom: #rgba(255, 255, 255, 1);
 }
 
 .list {
