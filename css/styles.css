@@ -16,7 +16,10 @@ body {
   background-color: #ffff;
   font-size: 14px;
 }
-h1, h2, h3, p {
+h1,
+h2,
+h3,
+p {
   margin-top: 0;
 }
 .container {
@@ -223,13 +226,12 @@ h1, h2, h3, p {
   align-content: center;
   margin-left: 215px;
 }
-.li-btn{
+.li-btn {
   display: flex;
   grid-auto-flow: grid;
   justify-content: center;
   align-items: center;
   align-content: center;
-  ju
 }
 .trading {
   margin-right: 30.26px;
