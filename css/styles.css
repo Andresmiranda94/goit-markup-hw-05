@@ -59,13 +59,14 @@ p {
   line-height: 0.9;
   letter-spacing: 0.02em;
   color: var(--color-link);
-  margin-right: 50px;
 }
 .current:active {
   color: var(--color-link);
 }
 .top-box {
   border-block-end-color: #212121;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .list {
@@ -81,8 +82,6 @@ p {
   line-height: 1.2;
   text-decoration: none;
   color: var(--color-link);
-  padding-top: 25px;
-  padding-bottom: 25px;
 }
 .li-header {
   font-style: var(--font--primary);
@@ -93,7 +92,7 @@ p {
   text-decoration: none;
 }
 .li-header:not(:last-child) {
-  margin-bottom: 50px;
+  margin-right: 50px;
 }
 
 .mail {
@@ -103,7 +102,6 @@ p {
   font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.02em;
-  margin-right: 50px;
 }
 
 .phone {
@@ -113,7 +111,6 @@ p {
   font-size: 14px;
   line-height: 1;
   letter-spacing: 0.02em;
-  margin-right: 219px;
 }
 
 .primary-section {
