@@ -65,8 +65,6 @@ p {
 }
 .top-box {
   border-block-end-color: #212121;
-  padding-top: 25px;
-  padding-bottom: 25px;
 }
 
 .list {
@@ -84,6 +82,9 @@ p {
   line-height: 1.2;
   text-decoration: none;
   color: var(--color-link);
+  padding-left: 215px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 .li-header {
   font-style: var(--font--primary);
@@ -92,6 +93,8 @@ p {
   line-height: 1.1;
   letter-spacing: 0.02em;
   text-decoration: none;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .li-header:not(:last-child) {
   margin-right: 50px;
