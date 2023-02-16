@@ -63,7 +63,7 @@ h3 {
   color: var(--color-link);
 }
 .top-box {
-  border-bottom: #rgba(255, 255, 255, 1);
+  border-bottom: rgba(255, 255, 255, 1);
 }
 
 .list {
@@ -182,10 +182,14 @@ h3 {
 }
 .li-section {
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   gap: 30px;
   padding: 0;
 }
+.dedi-img {
+  flex-basis: calc((100%-60px) / 4);
+}
+
 .li-btn {
   display: flex;
   grid-auto-flow: grid;
@@ -282,9 +286,7 @@ h3 {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-.li-equi {
-  gap: 30px;
-}
+
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
