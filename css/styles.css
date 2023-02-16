@@ -89,7 +89,7 @@ p {
   padding-top: 25px;
   padding-bottom: 25px;
 }
-.Estudio {
+.li-header {
   font-style: var(--font--primary);
   font-weight: 500;
   font-size: 14px;
@@ -98,21 +98,7 @@ p {
   text-decoration: none;
   margin-right: 50px;
 }
-.Portafolio {
-  font-style: var(--font-style);
-  font-weight: 500;
-  line-height: 1;
-  letter-spacing: 0.02em;
-  margin-right: 50px;
-}
-.Contactos {
-  font-style: var(--font-style);
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.1;
-  letter-spacing: 0.02em;
-  margin-right: 344px;
-}
+
 .mail {
   color: var(--color-contact);
   font-style: var(--font-style);
