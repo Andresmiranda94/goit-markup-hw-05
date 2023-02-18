@@ -65,6 +65,9 @@ h3 {
 .top-box {
   border-bottom: rgba(255, 255, 255, 1);
 }
+.top-box {
+  background-image: url();
+}
 
 .list {
   color: #212121;
