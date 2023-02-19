@@ -123,8 +123,12 @@ h3 {
   background-color: var(--color-container);
   text-align: center;
   padding: 200px 0;
-  background-image: url(/Images/svg/Fondo.svg);
+  background: url(/Images/svg/Fondo.svg);
+  background-size: 80pv;
+  background-repeat: no-repeat;
+  background-position: center;
 }
+
 .primary-title {
   color: #ffffff;
   margin: 0 auto;
