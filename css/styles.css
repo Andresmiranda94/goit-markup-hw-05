@@ -123,6 +123,7 @@ h3 {
   background-color: var(--color-container);
   text-align: center;
   padding: 200px 0;
+  background-image: url(/Images/svg/Fondo.svg);
 }
 .primary-title {
   color: #ffffff;
