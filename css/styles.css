@@ -124,7 +124,7 @@ h3 {
   text-align: center;
   padding: 200px 0;
   background: url(/Images/svg/Fondo.svg);
-  background-size: 80pv;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
 }
