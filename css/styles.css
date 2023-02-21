@@ -109,6 +109,15 @@ h3 {
   line-height: 1.1;
   letter-spacing: 0.02em;
 }
+.icon-mail {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  fill: rgba(117, 117, 117, 1);
+}
+.icon-mail:hover {
+  fill: #2196f3;
+}
 
 .phone {
   color: var(--color-contact);
