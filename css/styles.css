@@ -113,10 +113,9 @@ h3 {
   width: 16px;
   height: 12px;
   margin-right: 10px;
-  fill: rgba(117, 117, 117, 1);
 }
 .icon-mail:hover {
-  fill: #2196f3;
+  border-color: #2196f3;
 }
 
 .phone {
@@ -311,4 +310,11 @@ h3 {
 }
 .div-team {
   padding: 30px 44px;
+}
+.icon-valores {
+  display: flex;
+  justify-content: center;
+  background-color: #f5f4fa;
+  padding: 25px 102px;
+  margin-bottom: 30px;
 }
