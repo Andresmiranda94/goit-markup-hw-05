@@ -227,6 +227,7 @@ h3 {
 
 .bottom-box {
   background-color: var(--color-container);
+  display: flex;
 }
 
 .Webname {
@@ -302,6 +303,7 @@ h3 {
 }
 
 .footer {
+  display: flex;
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -320,6 +322,57 @@ h3 {
 }
 .icon-footer {
   display: flex;
-  flex-wrap: wrap;
+  color: #ffffff;
+  flex-direction: column;
+  align-items: center;
+}
+.lis-icon {
+  display: flex;
   list-style: none;
+  margin-bottom: 0;
+}
+.icon-foot {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 100%;
+  padding: 12px;
+}
+.icon-foot:hover {
+  background-color: var(--color-link);
+  fill: #ffffff;
+}
+.use-icon:hover .social-icon {
+  fill: #ffffff;
+}
+.menu-footer {
+  display: flex;
+  flex-direction: column;
+}
+.icon-footer {
+  margin-left: 50px;
+}
+.text-footer {
+  margin-top: 25px;
+  font-style: var(--font-style);
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.icon-foot:not(:last-child) {
+  margin-right: 10px;
+}
+.item-clientes {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+.icon-item {
+  list-style: none;
+  border: 1px solid rgba(175, 177, 184, 1);
+  padding: 25px 64px;
+  flex-basis: calc((100%-60px) / 6);
+  border-radius: 4px;
+}
+.icon-clientes:hover .icon-cliente {
+  fill: #2196f3;
 }
