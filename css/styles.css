@@ -378,12 +378,17 @@ h3 {
 }
 .menu-icon {
   display: flex;
-  gap: 35px;
+  gap: 30px;
   list-style: none;
+  padding-bottom: 42px;
 }
 .menu-team:hover {
   border-radius: 100%;
   background-color: var(--color-link);
   padding: 16px;
   justify-content: center;
+}
+.icon-team:hover . {
+  fill: #ffffff;
+  color: #ffffff;
 }
