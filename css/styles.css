@@ -131,7 +131,8 @@ h3 {
   background-color: var(--color-container);
   text-align: center;
   padding: 200px 0;
-  background: url(/Images/fondo.png);
+  background-image: url(/Images/fondo.png);
+  background-blend-mode: soft-light;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
