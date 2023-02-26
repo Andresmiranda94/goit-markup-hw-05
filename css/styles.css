@@ -376,6 +376,14 @@ h3 {
 .icon-clientes:hover .icon-cliente {
   fill: #2196f3;
 }
-.icon-name {
+.menu-icon {
   display: flex;
+  gap: 35px;
+  list-style: none;
+}
+.menu-team:hover {
+  border-radius: 100%;
+  background-color: var(--color-link);
+  padding: 16px;
+  justify-content: center;
 }
