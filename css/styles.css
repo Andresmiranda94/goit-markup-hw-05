@@ -365,31 +365,27 @@ h3 {
 .item-clientes {
   display: flex;
   gap: 30px;
-  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-left: 0px;
 }
 .icon-item {
   list-style: none;
   border: 1px solid rgba(175, 177, 184, 1);
   padding: 25px 64px;
   border-radius: 4px;
-  flex-basis: calc((100%-60px) / 6);
-}
-.icon-clientes:hover .icon-cliente {
-  fill: #2196f3;
+  flex-basis: calc((100%-60px) / 7);
 }
 .menu-icon {
   display: flex;
-  gap: 30px;
   list-style: none;
-  padding-bottom: 42px;
+  justify-content: center;
+  gap: 30px;
+  padding-left: 0px;
 }
 .menu-team:hover {
   border-radius: 100%;
   background-color: var(--color-link);
   padding: 16px;
   justify-content: center;
-}
-.icon-team:hover . {
-  fill: #ffffff;
-  color: #ffffff;
 }
