@@ -405,3 +405,12 @@ h3 {
 .icon-mail:hover{
   fill: var(--color-link);
 }
+.menu-team:hover .icon-team{
+  fill: #ffff;
+}
+.icon-cliente{
+  fill: #AFB1B8;
+}
+.icon-item:hover .icon-cliente{
+  fill: var(--color-link);
+}
