@@ -15,14 +15,6 @@ Single-colored icons can be modified like so:
 }
 ========================================== */
 
-.icon-Logo-4 {
-  width: 2em;
-}
-
-.icon-Logo-6 {
-  width: 2.0888671875em;
-}
-
 .icon-Logo-1 {
   width: 2em;
 }
@@ -35,8 +27,16 @@ Single-colored icons can be modified like so:
   width: 2em;
 }
 
+.icon-Logo-4 {
+  width: 2em;
+}
+
 .icon-Logo-5 {
   width: 2em;
+}
+
+.icon-Logo-6 {
+  width: 2.0888671875em;
 }
 
 .icon-phone {
