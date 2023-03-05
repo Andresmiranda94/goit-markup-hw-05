@@ -411,6 +411,9 @@ h3 {
 .icon-cliente{
   fill: #AFB1B8;
 }
+.icon-item:hover{
+  border-color: var(--color-link);
+}
 .icon-item:hover .icon-cliente{
   fill: var(--color-link);
 }
