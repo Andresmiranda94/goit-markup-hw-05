@@ -26,6 +26,7 @@ h3 {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
+  display: block;
 }
 .section {
   padding-bottom: 94px;
