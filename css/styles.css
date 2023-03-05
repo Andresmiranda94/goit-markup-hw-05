@@ -95,9 +95,7 @@ h3 {
   line-height: 1.1;
   letter-spacing: 0.02em;
   text-decoration: none;
-  padding-top: 32px;
-  padding-bottom: 32px;
-}
+  }
 .li-header:not(:last-child) {
   margin-right: 50px;
 }
@@ -117,9 +115,6 @@ h3 {
   fill: var(--color-contact);
   position: relative;
   top:3px;
-}
-.icon-mail:hover {
-  border-color: #2196f3;
 }
 
 .phone {
@@ -377,9 +372,11 @@ h3 {
   padding-left: 0px;
 }
 .icon-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   list-style: none;
   border: 1px solid rgba(175, 177, 184, 1);
-  padding: 25px 64px;
   border-radius: 4px;
   flex-basis: calc((100%-60px) / 7);
 }
@@ -403,7 +400,8 @@ h3 {
   .icon-team:hover{
     fill: #ffffff;
   }
-.icon-mail:hover{
+.li-header:hover .icon-mail,
+.li-header:focus .icon-mail{
   fill: var(--color-link);
 }
 .menu-team:hover .icon-team{
