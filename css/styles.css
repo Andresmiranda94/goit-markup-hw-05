@@ -341,11 +341,10 @@ h3 {
   background-color: var(--color-link);
   fill: #ffffff;
 }
-.social-icon{
+/*.social-icon{
+  align-content: center;
   justify-content: center;
-  align-items: center;
-
-}
+  }*/
 
 .menu-footer {
   display: flex;
@@ -389,16 +388,9 @@ h3 {
 .menu-team:hover {
   background-color: var(--color-link);
   color: #ffffff;
+  border-radius: 100%;
   }
-.menu-team {
-  height: 40px;
-  width: 40px;
-  border-radius: 50%;
-  display: flex;
-  align-items:center;
-  justify-content:center;
-  color: #757575;
-} 
-svg{
-  fill: currentColor;
-}
+  .menu-team{
+    padding: 12px;
+  }
+
