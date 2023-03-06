@@ -456,7 +456,7 @@ h3 {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .item:hover .card-animation{
-  transform: translateY(-105%);
+  transform: translateY(-101%);
 }
 .card-image{
   position: relative;
