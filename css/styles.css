@@ -344,6 +344,7 @@ h3 {
   fill: #ffffff;
 }
 .social-icon{
+  align-items: center;
   align-content: center;
   justify-content: center;
   }
