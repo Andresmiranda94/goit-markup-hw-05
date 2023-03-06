@@ -455,3 +455,7 @@ h3 {
 .item:hover .card-animation{
   transform: translateY(-100%);
 }
+.card-image{
+  position: relative;
+  overflow: hidden;
+}
