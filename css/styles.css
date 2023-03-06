@@ -498,7 +498,7 @@ h3 {
   align-content: center;
   fill: black;
 }
-.site-nav ul a.current.active::after{
+.site-nav a.current.active::after{
   content: "";
   position: absolute;
   bottom: -33px;
