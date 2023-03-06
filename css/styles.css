@@ -510,3 +510,7 @@ h3 {
   background: var(--color-link);
   border-radius: 4px;
 }
+:hover{
+  transition: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
