@@ -437,4 +437,18 @@ h3 {
   justify-content: center;
   text-align: center; 
 }
-.
+.card-animation{
+  position: absolute;
+  top:0;
+  height: 294px;
+  width: 370px;
+  background: rgba(33, 150, 243, 0.9);
+  font-style: var(--font-style);
+  padding: 63px 24px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+ 
+}
