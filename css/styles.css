@@ -439,7 +439,6 @@ h3 {
 }
 .card-animation{
   position: absolute;
-  top:0;
   height: 294px;
   width: 370px;
   background: rgba(33, 150, 243, 0.9);
@@ -450,4 +449,9 @@ h3 {
   line-height: 1.5;
   letter-spacing: 0.03em;
   color: #ffffff;
+  transition: 250ms ease;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.item:hover .card-animation{
+  transform: translateY(-100%);
 }
