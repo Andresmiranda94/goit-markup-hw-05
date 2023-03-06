@@ -480,3 +480,19 @@ h3 {
   background-color: #ffffff;
   position: relative;
 }
+.btn-modal{
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background-color: #ffffff;
+  border-radius: 100%;  
+  border-color: rgba(0, 0, 0, 0.1);
+  padding: 9px;
+}
+.icon-modal{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-content: center;
+  fill: black;
+}
